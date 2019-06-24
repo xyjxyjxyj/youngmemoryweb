@@ -8,6 +8,7 @@ module.exports = {
   dev: {
     env: require('./dev.env'),
     ip: 'localhost',
+    host: 'localhost',
     serverTime: 120000,
     port: 8084, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,
